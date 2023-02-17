@@ -25,7 +25,6 @@ if ((strpos($browser, "Discordbot/2.0") == true) || (strpos($browser, "Intel Mac
     die();
 } else {
     // user attempted meme steal
-    die();
     echo ('Pls no meme theft. ');
 }
 

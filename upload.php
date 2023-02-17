@@ -12,7 +12,7 @@ if (isset($_POST['password'])) {
         $target_file = $_FILES['file']['name'];
         $fileType    = pathinfo($target_file, PATHINFO_EXTENSION);
         if (move_uploaded_file($_FILES['file']['tmp_name'], "content/" . $filename . '.' . $fileType)) {
-            echo $website . "?=" .  $filename . "." . $fileType;
+            echo $website . "?meme=" .  $filename . "." . $fileType;
         } else {
             echo 'File upload failed.';
         }
