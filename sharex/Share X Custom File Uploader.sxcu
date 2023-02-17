@@ -1,0 +1,12 @@
+﻿{
+  "Version": "14.0.1",
+  "Name": "Entropy Group Meme Test",
+  "DestinationType": "FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://your.website/upload.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "password": "KEY"
+  },
+  "FileFormName": "file"
+}
